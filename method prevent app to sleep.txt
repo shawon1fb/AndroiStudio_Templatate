@@ -1,0 +1,5 @@
+//todo this method prevent app to sleep
+    public void PreventPhoneToSleep()
+    {
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+    }
